@@ -1,0 +1,8 @@
+h1,
+span {
+    width: 400px;
+}
+
+span {
+    display: inline-block;
+}
