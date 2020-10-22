@@ -19,3 +19,13 @@ There are 2 popular solutions:
 You can include these libraries (pick one) in the `head` of the document. Make sure they go above your custom styles.
 
 You can also add your own custom reset.
+
+## In Page Navigation
+
+- add `id` to the section you want to be able to navigate to
+- use this `id` as the `href` of an anchor tag preceeded with a `#`, like `href="#team"`
+
+## Pretty URLs
+
+- use an `index.html` file inside a folder
+- include the same CSS file in the head of the document, to ensure same visual appearance
