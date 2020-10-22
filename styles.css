@@ -4,7 +4,9 @@
 }
 
 body {
+    background-color: mistyrose;
     margin: 0;
+    color: #444;
 }
 
 h1,
@@ -28,6 +30,7 @@ h1 {
     padding: 10px;
     color: rebeccapurple;
 }
+
 h2 {
     width: 80%;
 }
