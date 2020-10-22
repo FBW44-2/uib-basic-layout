@@ -7,6 +7,10 @@ span {
     width: 400px;
 }
 
+h2 {
+    width: 80%;
+}
+
 span {
     display: inline-block;
 }
