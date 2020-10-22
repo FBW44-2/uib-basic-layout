@@ -12,6 +12,19 @@ body {
     color: #444;
 }
 
+/* Main containers */
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: rebeccapurple;
+    padding: 20px;
+    color: white;
+    text-align: right;
+}
 h1,
 span {
     width: 400px;
