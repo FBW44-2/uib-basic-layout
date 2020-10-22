@@ -20,6 +20,20 @@ You can include these libraries (pick one) in the `head` of the document. Make s
 
 You can also add your own custom reset.
 
+## Basic responsive layout
+
+We could make use of `margin: 0 auto;` to center an entire block on the page.
+This block should have a width that is less than the full width of the browser or the parent, otherwise we will not see the effect.
+
+To set the width of this container we could use a `%` or `vw`, but both are relative units and on smaller screens the content would be too narrow.
+
+So instead we could use `px`, which is absolute unit. The issue will be on smaller screens - when the width we set is larger than the device width, which will cause a horizontal scrollbar, something we want to avoid.
+
+To fix this, we can use instead of the `width` property, the `max-width` in combination with a px value.
+We could set the sizing of the container like: `max-width: 900px;`. This mean our container will expand to 100% of the parent (given that it is a block level element) but only until it reaches the specified `max-width` of `900px`. After it reaches this size it will be centered on the screen due to the `margin: 0 auto;`. 
+
+Last we need to add some padding, so the content does not stick to the edge of the browser on smaller screens.
+
 ## In Page Navigation
 
 - add `id` to the section you want to be able to navigate to
