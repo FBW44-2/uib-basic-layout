@@ -1,3 +1,8 @@
+/* Reset default box sizing for all elements */
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -11,6 +16,17 @@ span {
 and inherit color from parent that has color set */
 a {
     color: inherit;
+}
+
+h1 {
+    border: 1px solid blue;
+    /* Set padding for all sides - clockwise */
+    /* padding: 10px 16px 24px 32px; */
+    /* Set for top and bottom, then left and right */
+    /* padding: 10px 16px;  */
+    /* Set for all 4 side */
+    padding: 10px;
+    color: rebeccapurple;
 }
 h2 {
     width: 80%;
