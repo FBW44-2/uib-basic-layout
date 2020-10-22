@@ -29,3 +29,22 @@ You can also add your own custom reset.
 
 - use an `index.html` file inside a folder
 - include the same CSS file in the head of the document, to ensure same visual appearance
+
+## Folder structure
+
+Make sure you keep your project organized and group files in folders. This is our project structure:
+
+```bash
+    .
+    ├── about
+    │   └── index.html
+    ├── images
+    │   └── panda.png
+    ├── lib
+    │   ├── normalize.css
+    │   └── reset.css
+    ├── styles
+    │   └── main.css
+    ├── README.md
+    └── index.html
+```
