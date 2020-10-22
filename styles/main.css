@@ -1,4 +1,5 @@
-/* Reset default box sizing for all elements */
+/* Reset default box sizing, margin and padding for all elements */
+/* Custom mini reset */
 * {
     box-sizing: border-box;
     margin: 0;
