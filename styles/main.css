@@ -12,6 +12,38 @@ body {
     color: #444;
 }
 
+/* Site header */
+.site-header {
+    background-color: white;
+    padding: 24px 20px;
+}
+
+.site-header-link {
+    display: inline-block;
+    background-color: mistyrose;
+    padding: 20px;
+}
+
+.site-header-logo {
+    width: 40px;
+}
+/* Site menu */
+.site-menu {
+    display: inline-block;
+}
+
+.site-menu-item {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.site-menu-link {
+    padding: 8px;
+}
+
+.site-menu-link:hover {
+    color: rebeccapurple;
+}
 /* Main containers */
 main {
     max-width: 960px;
