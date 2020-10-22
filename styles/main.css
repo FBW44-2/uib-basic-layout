@@ -12,6 +12,12 @@ body {
     color: #444;
 }
 
+/* Overwrite browser default styles 
+and inherit color from parent that has color set */
+a {
+    color: inherit;
+}
+
 /* Site header */
 .site-header {
     background-color: white;
@@ -27,6 +33,7 @@ body {
 .site-header-logo {
     width: 40px;
 }
+
 /* Site menu */
 .site-menu {
     display: inline-block;
@@ -44,7 +51,9 @@ body {
 .site-menu-link:hover {
     color: rebeccapurple;
 }
+
 /* Main containers */
+.content-container,
 main {
     max-width: 960px;
     margin: 0 auto;
@@ -57,18 +66,13 @@ footer {
     color: white;
     text-align: right;
 }
-h1,
+
+.section-headline,
 span {
     width: 400px;
 }
 
-/* Overwrite browser default styles 
-and inherit color from parent that has color set */
-a {
-    color: inherit;
-}
-
-h1 {
+.section-headline {
     border: 1px solid blue;
     /* Set padding for all sides - clockwise */
     /* padding: 10px 16px 24px 32px; */
