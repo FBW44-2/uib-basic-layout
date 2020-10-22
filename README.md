@@ -12,7 +12,7 @@ There are 2 popular solutions:
 
     It will remove all default styles, and we will no longer be able to tell elements apart. It gives you a clean slate.
 
-* [normalize.css]( https://necolas.github.io/normalize.css/ )
+* [Normalize.css]( https://necolas.github.io/normalize.css/ )
 
     It tries to normalize the styles across different browsers.
 
